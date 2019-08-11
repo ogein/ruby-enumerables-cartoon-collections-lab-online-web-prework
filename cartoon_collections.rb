@@ -17,6 +17,6 @@ def find_the_cheese(array)
   
   common = array & cheese_types
   
-  return common.join
+  return common.first
   
 end
