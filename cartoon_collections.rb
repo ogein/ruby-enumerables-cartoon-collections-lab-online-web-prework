@@ -1,5 +1,4 @@
 def roll_call_dwarves(array)
-  array = array.split
   return array.each_with_index {|x, i| puts "#{i}. #{x}"}
 end
 
